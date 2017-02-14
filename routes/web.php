@@ -14,10 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
-// rota para a página ola
+
 Route::get('/ola', function(){
   return view('ola');
+  // rota para a página ola - criar um arquivo ola.blade.php em view -
+  //foi criado um controller com o shell
  });
 Route::get('/cursos', 'CursosController@index');
-
+//lembrar de criar os controles pelo shell!!!
 Route::get('/cursos/{index}','CursosController@show');
+//após isto posso criar a pasta em views
