@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>@yield('title')</title>
-    <link rel="stylesheet" type="text/css" href="{{ mix('/css/app.css') }}" />
+    <link rel="stylesheet" type="text/css" href="/css/app.css" />
   </head>
   <body>
 
@@ -24,6 +24,6 @@
 
     </div>
 
-    <script type="text/javascript" src="{{ mix('/js/app.js') }}">
+    <script type="text/javascript" src="/js/app.js">
   </body>
 </html>
