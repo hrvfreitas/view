@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+{{-- <html>
   <head>
     <meta charset="utf-8">
     <title>Curso</title>
@@ -17,4 +17,14 @@
 
     <script type="text/javascript" src="/js/app.js">
   </body>
-</html>
+</html> --}}
+
+ @extends('layout')
+
+ @section('content')
+  <div class="row">
+      <div class="col-md-6">
+        <h4>{{ $curso }}</h4>
+      </div>
+  </div>
+ @endsection
